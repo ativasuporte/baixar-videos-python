@@ -15,7 +15,9 @@ def main():
 
     url = input("Url do vídeo: ")
 
-    os.system("youtube-dl -o " + default_path + "\\%(title)s.%(ext)s" + url)
+    comando = "youtube-dl -o " + default_path + "\\%(title)s.%(ext)s " + url
+
+    os.system(comando)
 
     print("Vídeo baixado em: " + default_path)
 

@@ -21,7 +21,7 @@ def main():
 
     comando = "youtube-dl -o " + default_path + "\\%(title)s.%(ext)s " + url
 
-    #os.system(comando)
+    os.system(comando)
 
     os.system("cls")
 

@@ -23,8 +23,6 @@ def main():
 
     os.system(comando)
 
-    os.system("cls")
-
     print("Vídeo baixado em: " + default_path)
 
     while True:
